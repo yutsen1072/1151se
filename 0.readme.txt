@@ -1,0 +1,15 @@
+Example of:
+Basic DB usage: main.py
+Basic User login: sessionLogin.py
+Basic router use: routerUse.py
+
+use following command to start service
+fastapi dev. xxx.py
+
+OR
+
+今天天氣真好
+
+
+db.py: utility module for lifespan management and DB connection with connection pools
+students.sql: example data for db usage testing
