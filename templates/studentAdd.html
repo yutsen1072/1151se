@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FastAPI Template</title>
+  </head>
+<body>
+	<h1>Add New Student</h1>
+	<form method="post" action="/student/add">
+	<table>
+	<tr>
+		<td>學號</td>
+		<td>姓名</td>
+		<td>身高</td>
+	</tr>
+	<tr>
+		<td><input type="number" name="stuid" required></td>
+		<td><input type="text" name="name" required></td>
+		<td><input type="number" name="height" required></td>
+	</tr>
+	</table>
+	<br>
+	<button type="submit">送出新增</button>
+	<a href="/students/list/template">返回列表</a>
+	</form>
+</body>
+</html>
